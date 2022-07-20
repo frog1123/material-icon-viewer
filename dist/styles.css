@@ -1,0 +1,25 @@
+body {
+  background-color: #1c1c1c;
+}
+
+#icons-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+#icons-container div {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  width: max-content;
+}
+#icons-container div img {
+  grid-row: 1;
+  width: 40px;
+  height: 40px;
+}
+#icons-container div h2 {
+  grid-row: 2;
+  margin: 0;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

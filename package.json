@@ -1,0 +1,13 @@
+{
+  "name": "material-icon-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon ---watch src --config nodemon.json --exec yarn build:prod",
+    "build:prod": "tsc && sass src/styles.scss dist/styles.css && html-minifier --input-dir ./src --output-dir ./dist --collapse-whitespace --file-ext html"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

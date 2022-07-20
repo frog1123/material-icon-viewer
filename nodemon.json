@@ -1,0 +1,4 @@
+{
+  "ignore": ["dist/*"],
+  "ext": "html,scss,ts"
+}
